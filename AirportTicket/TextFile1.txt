@@ -1,0 +1,33 @@
+﻿string airportGo;
+            string airportArrival;
+            string AirportGoReturn;
+            string AirportArrivalReturn;
+            string airports;
+            if (choice == "1")
+            {
+                Console.Write("ΕΠΙΛΕΞΤΕ ΑΕΡΟΔΡΟΜΙΟ ΑΝΑΧΩΡΗΣΗΣ : ");
+                airportGo = Console.ReadLine();
+                Console.WriteLine();
+                Console.Write("ΕΠΙΛΕΞΤΕ ΑΕΡΟΔΡΟΜΙΟ ΑΦΙΞΗΣ : ");
+                airportArrival = Console.ReadLine();
+                return $"ΑΕΡΟΔΡΟΜΙΟ ΑΝΑΧΩΡΗΣΗΣ : {airportGo}\nΑΕΡΟΔΡΟΜΙΟ ΑΦΙΞΗΣ : {airportArrival}";
+            }
+            else if(choice == "2")
+            {
+                
+                Console.Write("ΕΠΙΛΕΞΤΕ ΑΕΡΟΔΡΟΜΙΟ ΑΝΑΧΩΡΗΣΗΣ : ");
+                airportGo = Console.ReadLine();
+                Console.WriteLine();
+                Console.Write("ΕΠΙΛΕΞΤΕ ΑΕΡΟΔΡΟΜΙΟ ΑΦΙΞΗΣ : ");
+                airportArrival = Console.ReadLine();
+                Console.WriteLine();
+                Console.WriteLine("ΕΠΙΣΤΡΟΦΗ");
+                Console.WriteLine();
+                Console.Write("ΕΠΙΛΕΞΤΕ ΑΕΡΟΔΡΟΜΙΟ ΑΝΑΧΩΡΗΣΗΣ : ");
+                AirportGoReturn = Console.ReadLine();
+                Console.WriteLine();
+                Console.Write("ΕΠΙΛΕΞΤΕ ΑΕΡΟΔΡΟΜΙΟ ΑΦΙΞΗΣ : ");
+                AirportArrivalReturn = Console.ReadLine();
+                return $"ΑΕΡΟΔΡΟΜΙΟ ΑΝΑΧΩΡΗΣΗΣ : {airportGo}\nΑΕΡΟΔΡΟΜΙΟ ΑΦΙΞΗΣ : {airportArrival}\nΕΠΙΣΤΡΟΦΗ\nΑΕΡΟΔΡΟΜΙΟ ΑΝΑΧΩΡΗΣΗΣ : {AirportGoReturn}\nΑΕΡΟΔΡΟΜΙΟ ΑΦΙΞΗΣ : {AirportArrivalReturn} ";
+            }
+            return "ΠΡΟΧΩΡΗΣΤΕ ΣΤΙΣ ΗΜΕΡΟΜΗΝΙΕΣ";
